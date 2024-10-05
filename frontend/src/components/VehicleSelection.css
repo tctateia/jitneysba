@@ -1,0 +1,48 @@
+/* Vehicle selection styling */
+.vehicle-selection img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 3px solid yellow; 
+    box-shadow: 0 0 20px yellow; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .vehicle-selection img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 40px yellow; 
+  }
+  
+  /* Vehicle selection container */
+  .vehicle-selection-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 40px; 
+    margin-bottom: 30px; 
+  }
+  
+  /* Headings for vehicle selection */
+  .vehicle-selection h2 {
+    text-align: center;
+    color: yellow; 
+    text-shadow: 0 0 10px yellow; 
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  button {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: yellow;
+  }
