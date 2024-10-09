@@ -23,7 +23,9 @@ const Welcome = () => {
 
       <section className="jitney-history">
         <h2>What is Jitney?</h2>
-        <p>The term "jitney" originated in the early 20th century to describe a form of shared taxi service. Our app revives this concept with a modern twist, connecting drivers with passengers for on-demand transportation.</p>
+        <p>The term "jitney" originated in the early 20th century 
+          to describe a form of shared taxi service. Our app revives this concept with a modern twist, 
+          connecting drivers with passengers for on-demand transportation.</p>
       </section>
     </div>
   );

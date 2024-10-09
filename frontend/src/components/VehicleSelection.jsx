@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Add this line to import useNavigate
-import './VehicleSelection.css'; // Add the styles
+import './VehicleSelection.css'; 
 
 const VehicleSelection = () => {
   const [selectedVehicle, setSelectedVehicle] = useState('');
@@ -13,10 +13,10 @@ const VehicleSelection = () => {
 
   // Handle form submission
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent form from reloading the page
+    e.preventDefault(); 
     if (selectedVehicle) {
       alert('Thank you for choosing Jitney. Next, please enter your ride information.'); // Show alert
-      navigate(`/Rides/${selectedVehicle}`); // Navigate to the /Rides page with the selected vehicle type
+      navigate(`/Rides/${selectedVehicle}`); 
     } else {
       alert('Please select a vehicle type.');
     }
