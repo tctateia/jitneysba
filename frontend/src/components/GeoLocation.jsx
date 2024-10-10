@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import locations from '../data/locations'; // Adjust the path as needed
+import locations from '../data/locations'; 
 
 const GeoLocation = () => {
     const [locationData, setLocationData] = useState(null);

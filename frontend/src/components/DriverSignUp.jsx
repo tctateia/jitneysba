@@ -16,11 +16,10 @@ const DriverSignUpForm = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  // Handle form submission (sending the data to the backend)
+  
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent page reload
+    e.preventDefault(); 
 
-    // Ensure all form fields are filled out
     if (
       formData.name &&
       formData.dateOfBirth &&
